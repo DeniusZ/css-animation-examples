@@ -13,6 +13,7 @@ export const Homepage = () => {
     <StyledNav>
       <Link to="animatedText">Animated Neon Text</Link>
       <Link to="parallax">Parallax Landing Page</Link>
+      <Link to="animatedButtons">Animated Buttons 1</Link>
     </StyledNav>
   );
 };
