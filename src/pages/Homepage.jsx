@@ -1,0 +1,18 @@
+import { Link } from "react-router-dom";
+import styled from "styled-components";
+
+const StyledNav = styled.nav`
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 0.5rem;
+`;
+
+export const Homepage = () => {
+  return (
+    <StyledNav>
+      <Link to="animatedText">Animated Neon Text</Link>
+      <Link to="parallax">Parallax Landing Page</Link>
+    </StyledNav>
+  );
+};
