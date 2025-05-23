@@ -16,9 +16,5 @@ const StyledButton = styled(Button)`
 `;
 
 export const Button1 = () => {
-  return (
-    <StyledButton href="#" isBlue={true}>
-      Hover Me
-    </StyledButton>
-  );
+  return <StyledButton>Hover Me</StyledButton>;
 };

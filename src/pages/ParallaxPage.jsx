@@ -8,7 +8,7 @@ import {
   leaf,
   plant,
   tree,
-} from "../assets";
+} from "../assets/parallax";
 import { useEffect, useState } from "react";
 
 const Container = styled.div`
