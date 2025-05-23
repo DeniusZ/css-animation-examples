@@ -12,7 +12,7 @@ const Main = styled.main`
 export const AnimatedText = () => {
   return (
     <Main>
-      <AnimatedTextComponent>Hello world!</AnimatedTextComponent>
+      <AnimatedTextComponent>hover over me!</AnimatedTextComponent>
     </Main>
   );
 };

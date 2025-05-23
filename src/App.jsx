@@ -4,6 +4,7 @@ import { ParallaxPage } from "./pages/ParallaxPage";
 import { AnimatedButtons } from "./pages/AnimatedButtons";
 import { Homepage } from "./pages/Homepage";
 import GlobalStyles from "./styles/GlobalStyles";
+import { ExpandableCard } from "./pages/ExpandableCard";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="animatedText" element={<AnimatedText />} />
         <Route path="parallax" element={<ParallaxPage />} />
         <Route path="animatedButtons" element={<AnimatedButtons />} />
+        <Route path="expandableCard" element={<ExpandableCard />} />
       </Routes>
     </BrowserRouter>
   );
