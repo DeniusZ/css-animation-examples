@@ -12,6 +12,7 @@ export const Homepage = () => {
   return (
     <StyledNav>
       <Link to="animatedText">Animated Neon Text</Link>
+      <Link to="animatedText2">Animated Neon Text 2</Link>
       <Link to="parallax">Parallax Landing Page</Link>
       <Link to="animatedButtons">Animated Buttons 1</Link>
       <Link to="expandableCard">Expandable Card</Link>
