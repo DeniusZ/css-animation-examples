@@ -6,6 +6,7 @@ import { Homepage } from "./pages/Homepage";
 import GlobalStyles from "./styles/GlobalStyles";
 import { ExpandableCard } from "./pages/ExpandableCard";
 import { AnimatedText2 } from "./pages/AnimatedText2";
+import { ScrollAnimation } from "./pages/ScrollAnimation";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="animatedButtons" element={<AnimatedButtons />} />
         <Route path="expandableCard" element={<ExpandableCard />} />
         <Route path="animatedText2" element={<AnimatedText2 />} />
+        <Route path="scrollAnimation" element={<ScrollAnimation />} />
       </Routes>
     </BrowserRouter>
   );
