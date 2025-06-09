@@ -18,6 +18,7 @@ export const Homepage = () => {
       <Link to="expandableCard">Expandable Card</Link>
       <Link to="scrollAnimation">Scroll Animation</Link>
       <Link to="scrollAnimation2">Scroll Animation 2</Link>
+      <Link to="bgScrollAnimation">Background Scroll Animation</Link>
     </StyledNav>
   );
 };
