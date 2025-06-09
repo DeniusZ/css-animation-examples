@@ -17,6 +17,7 @@ export const Homepage = () => {
       <Link to="animatedButtons">Animated Buttons 1</Link>
       <Link to="expandableCard">Expandable Card</Link>
       <Link to="scrollAnimation">Scroll Animation</Link>
+      <Link to="scrollAnimation2">Scroll Animation 2</Link>
     </StyledNav>
   );
 };
